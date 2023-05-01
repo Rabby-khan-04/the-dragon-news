@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  @apply max-w-7xl mx-auto;
+}
+
+.active {
+  @apply text-primary text-xl pl-12 pr-16 py-4 block bg-[#e7e7e7] rounded-md font-semibold;
+}
+
+.deactive {
+  @apply text-red-500 text-xl pl-12 pr-16 py-4 block text-neutral font-semibold;
+}
+
+.right-nav-bg {
+  background-image: url(../src/assets/bg.png);
+  background-position: center center;
+  background-size: cover;
+}
